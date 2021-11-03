@@ -108,7 +108,7 @@ class FlutterPackageManagerPlugin: FlutterPlugin, MethodCallHandler {
       info["packageName"] = appInfo.packageName
       info["appName"] = appName
       info["appIcon"] = byteImage
-      Log.i(TAG, "xxx get the Package $packageName Info $info")
+//      Log.i(TAG, "xxx get the Package $packageName Info $info")
       return info
     } catch (e: Exception) {
       Log.e(TAG, "xxx $packageName not installed", e)
